@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { ValidationComponent } from "./components/ValidationComponent";
 import { CharComponent } from "./components/CharComponent";
 import { getStudent } from "./services";
-import "./app.css";
+import "./App.css";
 
 function App() {
   const [string, setString] = useState("");
