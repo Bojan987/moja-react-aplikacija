@@ -17,6 +17,11 @@ input{
   border-radius: 8px;
 
 }
+input:focus { 
+  outline: none;
+  box-shadow : none;  
+}
+
 .wrapper {
   display: flex;
   flex-direction: row;
