@@ -11,15 +11,14 @@ p {
   font-size: 14px;
   line-height: 21px;
 }
-input{
-  width:250px ;
+input {
+  width: 250px;
   height: 20px;
   border-radius: 8px;
-
 }
-input:focus { 
+input:focus {
   outline: none;
-  box-shadow : none;  
+  box-shadow: none;
 }
 
 .wrapper {
@@ -28,7 +27,6 @@ input:focus {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
- 
 }
 .student-wrap {
   display: flex;
@@ -43,65 +41,58 @@ input:focus {
   flex: 1 1 0;
   align-items: center;
   justify-content: center;
-  
-  
-  
 }
 .charWrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.input-container{
-  background-color: #231E39;
-	border-radius: 5px;
-	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-	color: #B3B8CD;
-	padding-top: 30px;
-	position: relative;
-	width: 350px;
-	max-width: 100%;
-	text-align: center;
+.input-container {
+  background-color: #231e39;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #b3b8cd;
+  padding-top: 30px;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
   margin-bottom: 30px;
 }
 
 .card-container {
-	background-color: #231E39;
-	border-radius: 5px;
-	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-	color: #B3B8CD;
-	padding-top: 30px;
-	position: relative;
-	width: 350px;
-	max-width: 100%;
-	text-align: center;
- 
+  background-color: #231e39;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #b3b8cd;
+  padding-top: 30px;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
 }
 
-
-
 .card-container .round {
-	border: 1px solid #03BFCB;
-	border-radius: 50%;
-	padding: 7px;
-  
+  border: 1px solid #03bfcb;
+  border-radius: 50%;
+  padding: 7px;
 }
 
 button.primary {
-	background-color: #03BFCB;
-	border: 1px solid #03BFCB;
-	border-radius: 3px;
-	color: #231E39;
-	font-family: Montserrat, sans-serif;
-	font-weight: 500;
-	padding: 10px 25px;
+  background-color: #03bfcb;
+  border: 1px solid #03bfcb;
+  border-radius: 3px;
+  color: #231e39;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
 }
 
 button.primary.ghost {
-	background-color: transparent;
-	color: #02899C;
+  background-color: transparent;
+  color: #02899c;
   margin-bottom: 30px;
 }
-.buttons .primary.ghost:hover{
-  background-color:  #023a3d;
+.buttons .primary.ghost:hover {
+  background-color: #023a3d;
 }

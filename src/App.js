@@ -128,7 +128,7 @@ function App() {
                 <h6>{student.lastName}</h6>
                 <p>
                   Age:{student.age}
-                  <br /> City:{student.placeOfBirth.city} <br /> 
+                  <br /> City:{student.placeOfBirth.city} <br />
                   Country:{student.placeOfBirth.country} <br /> Zip:
                   {student.placeOfBirth.zip}
                 </p>
