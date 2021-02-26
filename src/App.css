@@ -25,14 +25,16 @@ input:focus {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  
+  height: 100vh;
+  
 }
 .student-wrap {
   display: flex;
   flex: 1 1 0;
-  align-items: center;
+  
   justify-content: center;
+  max-height: 23rem;
   margin-top: 30px;
 }
 .inputWrapp {
@@ -40,12 +42,14 @@ input:focus {
   flex-direction: column;
   flex: 1 1 0;
   align-items: center;
-  justify-content: center;
+  
+  
 }
 .charWrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  
 }
 .input-container {
   background-color: #231e39;
@@ -57,7 +61,7 @@ input:focus {
   width: 350px;
   max-width: 100%;
   text-align: center;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .card-container {
